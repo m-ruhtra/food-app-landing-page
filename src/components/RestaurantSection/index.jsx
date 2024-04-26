@@ -12,7 +12,7 @@ export const RestaurantSection = () => {
                     <h1 className="titleTwo">Restaurantes famosos</h1>
                 </div>
 
-                <div>
+                <div className={styles.divListSection}>
                     <RestaurantList restaurantList={dataRestaurants}/>
                 </div>
             </div>

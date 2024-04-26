@@ -11,3 +11,9 @@ O projeto está organizado em uma arquitetura de componentes.
 Stacks:
 - ReactJS
 - CSS
+
+## Vercel
+
+Visite o projeto atráves da URL:
+
+https://food-app-landing-page-xi.vercel.app/
