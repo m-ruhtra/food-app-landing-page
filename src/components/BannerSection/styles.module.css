@@ -1,0 +1,91 @@
+.bannerSection{
+    width: 90%;
+    height: max-content;
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-inline: auto;
+    margin-top: 40px;
+}
+
+.divInfosSection{
+    width: 100%;
+    height: max-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    margin-top: 30px;
+}
+
+.divImgSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgBanner{
+    width: 60%;
+}
+
+.btnSection{
+    width: 172px;
+    height: 52px;
+    
+    margin-top: 20px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: none;
+    border-radius: 16rem;
+
+    background-color: var(--color-secundary);
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.21rem;
+
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+
+@media(min-width: 750px){
+    .bannerSection{
+        flex-direction: row;
+    }
+
+    .divInfosSection{
+        width: 50%;
+        align-items: start;
+        gap: 30px;
+    }
+
+    .divImgSection{
+        width: 50%;
+    }
+
+    .imgBanner{
+        width: 90%;
+    }
+}
+
+@media(min-width: 900px){
+    .divInfosSection{
+        width: 45%;
+    }
+
+    .imgBanner{
+        width: 512px;
+    }
+}

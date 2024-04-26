@@ -1,0 +1,28 @@
+.sectionRestaurants{
+    width: 100%;
+    height: max-content;
+    
+    margin-top: 105px;
+
+    background: var(--color-terciary);
+}
+
+.divContentSection{
+    width: 90%;
+    height: max-content;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 51px;
+    
+    margin-inline: auto;
+    padding: 90px 0;
+}
+
+.divHeaderSection{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 13px;
+}

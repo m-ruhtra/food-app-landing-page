@@ -1,0 +1,33 @@
+.sectionAbout{
+    width: 90%;
+    height: max-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+    margin-inline: auto;
+    margin-top: 105px;
+}
+
+.divHeaderSection{
+    width: 100%;
+    height: max-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    gap: 18px;
+}
+
+.divContent{
+    width: 100%;
+}
+
+@media (min-width: 800px){
+    .sectionAbout{
+        flex-direction: row;
+    }
+}

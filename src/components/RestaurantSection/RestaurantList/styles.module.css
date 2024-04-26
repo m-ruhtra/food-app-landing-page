@@ -1,0 +1,14 @@
+.ulSectionRestaurants{
+    width: 100%;
+    height: max-content;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    margin: 0;
+    padding: 0;
+}
